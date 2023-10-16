@@ -1,0 +1,245 @@
+:root {
+    --IRIS: #4D5AE5;
+    --NAVY-BLUE: #2E2F42;
+    --SLATE: #434455;
+    --CLOUD: #F4F4FD;
+    --CORNFLOWER: #E7E9FC;
+    --WHITE: #fff;
+    --ORANGE: #ff4500;
+    --RED: #ff0000;
+    --GREEN: #008000;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+/*HEADER*/
+
+.logo {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 116.667%;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+}
+
+.logo-web {
+    color: var(--IRIS);
+}
+
+.link:hover,
+.link:focus {
+    color: var(--IRIS);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 72px;
+    background-color: var(--CORNFLOWER), var(--WHITE);
+}
+
+.header-stuff {
+    display: flex;
+    align-items: center;
+    gap: 76px;
+}
+
+.nav,
+.contacts {
+    display: flex;
+    gap: 40px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    color: var(--NAVY-BLUE);
+    display: flex;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.submenu {
+    text-decoration: none;
+    color: var(--NAVY-BLUE);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+.contact {
+    text-decoration: none;
+    color: var(--SLATE);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.32px;
+}
+
+/*PSEUDO-CLASSES OF LINKS*/
+
+.contact:hover,
+.contact:focus {
+    color: var(--IRIS);
+}
+
+.contact:visited {
+    color: var(--NAVY-BLUE);
+}
+
+.submenu:hover,
+.submenu:focus {
+    color: var(--IRIS);
+}
+
+.submenu:visited {
+    color: var(--SLATE);
+}
+
+/*MAIN*/
+
+.dark-bg {
+    background-color: var(--NAVY-BLUE);
+    color: var(--WHITE);
+    padding-top: 188px;
+    padding-bottom: 292px;
+    text-align: center;
+}
+
+.h1 {
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 107.143%;
+    letter-spacing: 1.12px;
+}
+
+.button {
+    background-color: var(--IRIS);
+    color: var(--WHITE);
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%;
+    letter-spacing: 0.64px;
+    padding: 16px 32px;
+}
+
+.button:hover,
+.button:focus {
+    cursor: pointer;
+    background-color: var(--ORANGE);
+    color: var(--IRIS);
+}
+
+.button:visited {
+    color: var(--SLATE);
+}
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 111.111%;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    margin-bottom: 72px;
+}
+
+.h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.4px;
+    margin: 0;
+}
+
+.below {
+    margin-bottom: 120px;
+    gap: 24px;
+}
+
+.below-button {
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.below-button p {
+    margin-top: 0;
+}
+
+.devices {
+    gap: 24px;
+}
+
+.light-bg {
+    background-color: var(--CLOUD);
+}
+
+.team {
+    gap: 24px;
+}
+
+.team-li {
+    border-radius: 0px 0px 4px 4px;
+    background: var(--WHITE, #FFF);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.team-text {
+    background-color: var(--WHITE);
+    text-align: center;
+    border: 1px hidden;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.team-text p {
+    margin-top: 8px;
+}
+
+/*FOOTER*/
+
+.container-footer {
+    background-color: var(--NAVY-BLUE);
+    color: var(--CLOUD);
+    padding-top: 101.5px;
+    padding-bottom: 100px;
+    padding-left: 156px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .logo {
+    color: var(--CLOUD);
+}
+
+.footer .logo:hover,
+.logo:focus {
+    color: var(--IRIS);
+}
